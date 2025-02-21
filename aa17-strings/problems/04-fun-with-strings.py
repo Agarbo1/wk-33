@@ -40,6 +40,7 @@ print('The bunny said, "Let\'s go to the library."')
 # DO NOT EDIT - Sample debug for an equality operation
 num = 5
 str = "5"
-print(f'num {0}, str {1}, equal? {2}'.format(num, str, num==str))
+print('num {0}, str {1}, equal? {2}'.format(num, str, num==str))
 
 # STEP 6: Rewrite the print above in an alternate way using f' on the string
+print(f'num {0}, str {1}, equal? {2}'.format(num, str, num==str))
